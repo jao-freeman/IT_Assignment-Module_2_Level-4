@@ -1,0 +1,171 @@
+
+body{ margin: 0px; font-family: "Gotham Rounded Medium", "Gotham Pro", "Gotham Rounded Bold", "Arial Rounded MT Bold";}
+
+.parent-container{ background-image: url("./Hero_Assets/carousel-2.jpg");
+				 	position: relative;
+				 	display: flex;
+				 	top: 0px; left: 0px; right: 0px;
+				 	height: 700px;
+				 	background-repeat: no-repeat;
+				 	background-size: cover;	
+				 }
+
+.color-grade{display: flex;
+				 position: absolute;
+				 top: 0px; bottom: 0px; right: 0px; left: 0px; 
+				 margin: 0px;
+				 width: 100%; height: 100%;
+				 align-items: center;
+				 justify-content: center;
+				 background-color: #000033;
+				 opacity: 0.6;}
+
+.hero-container{ display: flex;
+				 position: relative;
+				 top: 0px; bottom: 0px; right: 0px; left: 0px; 
+				 margin: 0px;
+				 width: 100%; height: 100%;
+				 align-items: center;
+				 justify-content: space-between;
+				 z-index: 200;
+			   }
+
+.navbar{ display: flex; z-index: 10000;
+		 height: auto;
+		 flex-direction: row; 
+		 justify-content: space-between;
+		 align-items: center;
+		 position: fixed;
+		 top: 0px; left: 0px; right: 0px; ; 
+		 border-bottom: 1px solid #8c8c8c;
+		}
+
+.logo-container{ display: flex;
+				 height: 100%;
+				 width: auto;
+				 position: relative;
+				 left: 0px;
+				 align-items: center;
+				 justify-content: space-between;
+				 margin-left: 35px; margin-right: 10px;
+				 font-family: "Gotham Rounded";
+				 letter-spacing: -2px;
+				 color: #ffffff;
+				}
+
+.logo-container img{ height: 36px;  width: 38px; }
+
+.nav-btn-container{ display: flex;
+				    height: auto; 
+				    align-items: center;
+				    justify-content: space-between;
+				    margin-right: 35px;
+				    margin-left: 260px;
+				    position: relative;
+				    right: 262px;
+				    margin-right: 1px;
+				    width: 400px;
+				    height: 80px;
+				    min-width: 10px;
+				  } 
+
+.nav-btn-container button{ height: 80px;
+						   width: 60px;
+						   white-space: collapse;
+						   position: relative; 
+						   padding: 0px; 
+						   margin-right: 5px;
+						   border: none;
+						   font-family: Gotham Rounded;
+						   background-color: transparent;
+						   color: #ffffff;
+						   border-bottom: 3px solid transparent;
+						   border-top: 3px solid transparent;
+						   transition: border-top 0.9s,
+						   			   border-bottom 0.9s,
+						   			   border-bottom-color 0.9s,
+						   			   border-top-color 0.9s,
+						   			   color 0.9s;
+						 } 
+
+.nav-btn-container button:hover{ border-bottom: 3px solid #06A3DA;
+								 border-top: 3px solid transparent;
+							   	 color: #06A3DA;
+							   	 position: relative;
+							   	 box-sizing: border-box;
+							   }
+
+.search-icon{ height: 25px; width: 25px; }
+
+.pro-version{ width: 200px;
+			  height: auto;
+			  background-color: #06A3DA;
+			  color: #ffffff;
+			  padding: 8px 14px;
+			  right: 0px;
+			  right: 35px;
+			  text-align: center;
+			  display: flex;
+			  position: absolute;
+			}
+
+.prev-btn{ display: flex;
+		   position: relative;
+		   justify-content: center;
+		   align-items: center;
+		   width: 40px;
+		   top: 0px; bottom: 0px;
+		   left: 70px;
+		   margin-right: 25px;
+		 }
+
+.next-btn{ display: flex;
+		   position: relative;
+		   justify-content: center;
+		   align-items: center;
+		   width: 40px;
+		   top: 0px; bottom: 0px;
+		   right: 70px;
+		   margin-left: 30px;
+		 }
+.next-btn img, .prev-btn img{ width: 45px; height: 50px; }
+
+.creative-container{ position: relative;
+					 display: flex; flex-direction: column;
+					 color: #ffffff;
+					 width: 690PX;
+					 justify-content: center;
+					 align-items: center;
+					 margin-right: 70px;
+					 margin-left: 70px;
+
+					 
+					}
+
+.creative-container h5{ font-family: Gotham Pro;
+						font-size: 16px; 
+						margin-bottom: 0px;}
+
+.creative-container h1{ 
+						text-align: center; 
+						margin-top: 20px;
+					  	font-size: 4rem;
+					  }
+
+.call-to-action{  display: flex; 
+				  justify-content: space-between; 
+				  align-items: center;
+				  width: 220px;
+				}
+
+.call-to-action button{ color: #ffffff; 
+						width: 100px; height: 36px; 
+						font-family: Gotham Rounded;
+					    box-sizing: border-box;
+					    position: relative;
+					  }
+.call-to-action .free-quote{ background-color: #06A3DA; 
+							 border: none; }
+
+.call-to-action .contact-us{ background-color: transparent; 
+							 border: 1px solid #ffffff;}
